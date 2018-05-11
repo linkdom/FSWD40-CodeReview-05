@@ -4,11 +4,13 @@
     <meta charset="utf-8">
     <title>Coderslovedating</title>
     <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
   </head>
   <body>
     <div class="wrapper">
       <div class="header">
-        <h1 id="headertext">coders dating</h1>
+        <h1 id="headertext">coders < <i class="fas fa-heart"></i> > dating</h1>
       </div>
       <div class="herosection">
         <div id="overlay">
@@ -20,48 +22,54 @@
           <img class="profpic" src="./img/boy1.800x1000.jpg" alt="">
           <p class="personDetails">Name: <br>Surname: <br>Age: </p>
           <p class="actualDetails">John<br>Doe<br>25</p>
-          <input type="button" class="like" name="Like" value="Like">
-          <h1 class="counter">2</h1>
+          <input onclick="likeJohn()" type="button" class="like" name="Like" value="Like">
+          <h1 id="john"class="counter">0</h1>
+          <h1 class="heart"><i class="fas fa-heart"></i></h1>
         </div>
         <div class="dating">
           <img class="profpic" src="./img/girl1.800x1000.jpg" alt="">
           <p class="personDetails">Name: <br>Surname: <br>Age: </p>
           <p class="actualDetails">Jane<br>Doe<br>25</p>
-          <input type="button" class="like" name="Like" value="Like">
-          <h1 class="counter">1</h1>
+          <input onclick="likeJane()" type="button" class="like" name="Like" value="Like">
+          <h1 id="jane" class="counter">0</h1>
+          <h1 class="heart"><i class="fas fa-heart"></i></h1>
         </div>
         <div class="dating">
           <img class="profpic" src="./img/boy2.800x1000.jpg" alt="">
           <p class="personDetails">Name: <br>Surname: <br>Age: </p>
           <p class="actualDetails">Max<br>Muster<br>25</p>
-          <input type="button" class="like" name="Like" value="Like">
-          <h1 class="counter">3</h1>
+          <input onclick="likeMax()" type="button" class="like" name="Like" value="Like">
+          <h1 id="max" class="counter">0</h1>
+          <h1 class="heart"><i class="fas fa-heart"></i></h1>
         </div>
         <div class="dating">
           <img class="profpic" src="./img/girl2.800x1000.jpg" alt="">
           <p class="personDetails">Name: <br>Surname: <br>Age: </p>
           <p class="actualDetails">Maxina<br>Muster<br>25</p>
-          <input type="button" class="like" name="Like" value="Like">
-          <h1 class="counter">1</h1>
+          <input onclick="likeMaxina()" type="button" class="like" name="Like" value="Like">
+          <h1 id="maxina" class="counter">0</h1>
+          <h1 class="heart"><i class="fas fa-heart"></i></h1>
         </div>
         <div class="dating">
           <img class="profpic" src="./img/girl2.800x1000.jpg" alt="">
           <p class="personDetails">Name: <br>Surname: <br>Age: </p>
           <p class="actualDetails">John<br>Doe<br>25</p>
-          <input type="button" class="like" name="Like" value="Like">
-          <h1 class="counter">2</h1>
+          <input onclick="likeIdk1()" type="button" class="like" name="Like" value="Like">
+          <h1 id="idk1" class="counter">0</h1>
+          <h1 class="heart"><i class="fas fa-heart"></i></h1>
         </div>
         <div class="dating">
           <img class="profpic" src="./img/girl2.800x1000.jpg" alt="">
           <p class="personDetails">Name: <br>Surname: <br>Age: </p>
           <p class="actualDetails">John<br>Doe<br>25</p>
-          <input type="button" class="like" name="Like" value="Like">
-          <h1 class="counter">1</h1>
+          <input onclick="likeIdk2()" type="button" class="like" name="Like" value="Like">
+          <h1 id="idk2" class="counter">0</h1>
+          <h1 class="heart"><i class="fas fa-heart"></i></h1>
         </div>
       </div>
       <hr>
       <div class="footer">
-        <h3 id="footext">Coders \<\> Dating</h3>
+        <h3 id="footext">Coders < <i class="fas fa-heart"></i> > Dating</h3>
       </div>
     </div>
     <script src="./js/myscript.js" charset="utf-8"></script>

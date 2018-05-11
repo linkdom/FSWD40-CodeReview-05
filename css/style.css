@@ -1,6 +1,7 @@
 * {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  font-family: "Roboto", sans-serif; }
 
 .wrapper {
   display: grid;
@@ -10,8 +11,12 @@
 .header {
   background-color: #7B248A; }
 
+/*h1 > i > .fas
+ * color: red
+ * font-size: 150% */
 #headertext {
-  text-align: center; }
+  text-align: center;
+  color: white; }
 
 .herosection {
   background-image: url(../img/computer-1245714_1280.jpg);
@@ -60,7 +65,7 @@
   font-weight: bold; }
 
 .like {
-  grid-column: 4/5;
+  grid-column: 3/4;
   grid-row: 2/3;
   width: 60px;
   height: 30px;
@@ -70,13 +75,23 @@
   font-weight: bold; }
 
 .counter {
-  grid-column: 5/6;
-  grid-row: 2/3; }
+  grid-column: 4/5;
+  grid-row: 2/3;
+  color: red;
+  text-align: center; }
+
+.dating > .fas {
+  color: red; }
 
 .footer {
   text-align: center; }
 
 p {
-  font-size: 130%; }
+  font-size: 110%; }
+
+.heart {
+  grid-column: 5/6;
+  grid-row: 2/3;
+  color: red; }
 
 /*# sourceMappingURL=style.css.map */

@@ -4,7 +4,7 @@ var persons =
   "surname": ["Doe","Dae","Master","Muster","Cara","Link","Ford","Malek"],
   "favoritePerformers": ["Justin Timberlake", "Ed Sheeran", "Emma Watson"],
   "age": [31,25,24,27,22,24,75,36],
-  "myPhoto": ["../img/boy1.800x1000.jpg","../img/girl1.800x1000.jpg","../img/boy2.800x1000.jpg","../img/girl2.800x1000.jpg",
-              "../img/alessiacara.jpg","../img/dlink.jpg","../img/hf.jpg","../img/ramimalek.jpg"],
-  "likes": [0,1,2,3,4,72,12,32,71]
+  "image": ["./img/boy1.800x1000.jpg","./img/girl1.800x1000.jpg","./img/boy2.800x1000.jpg","./img/girl2.800x1000.jpg",
+              "./img/alessiacara.jpg","./img/dlink.jpg","./img/hf.jpg","./img/ramimalek.jpg"],
+  "likes": [0,1,2,3,72,12,32,71]
 };
